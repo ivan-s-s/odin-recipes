@@ -3,13 +3,13 @@
 *,
 *::before,
 *::after {
+    font-family: 'Roboto Mono', monospace;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 body {
-    font-family: 'Roboto Mono', monospace;
     max-width: 800px;
     min-height: 100vh;
     margin: 0 auto;
@@ -31,14 +31,11 @@ body {
 .container_title {
     padding: 1.5rem;
     padding-bottom: 3rem;
+    text-align: center;
 }
 
 .container_item {
     font-size: 1.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: right;
-    flex-direction: column;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
@@ -47,6 +44,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 2rem;
+}
+
+.page {
+    flex-direction: column;
 }
 
 .container_item_div img {
@@ -74,4 +76,12 @@ body {
 
 p {
     padding: 20px;
+}
+
+ol>li {
+    list-style: none;
+}
+
+h3 {
+    text-align: center;
 }
